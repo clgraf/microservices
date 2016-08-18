@@ -1,16 +1,6 @@
 eureka:
     client:
         serviceUrl:
-            defaultZone: http://localhost:8010/eureka/
-            
----
-spring:
-  profiles: palavra1
-words: I,You,He,She,It
-
----
-spring:
-  profiles: palavra2
-words: ran,knew,had,saw,bought            
+            defaultZone: http://localhost:8010/eureka/        
             
             
